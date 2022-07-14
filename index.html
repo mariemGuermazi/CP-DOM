@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+  <div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping Cart
+  </div>
+ 
+  <!-- Product #1 -->
+  <div class="item">
+    <button class="delete"> X </button>
+    <button class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+ 
+    <div class="image">
+      <img src="/gibson-les-paul.jpg" height="65" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Electric Guitar</span>
+      <span>gibson</span>
+      <span>Black</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="minus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+        </svg>
+      </button>
+      <input type="text" class="QNT" value="1">
+      <button class="plus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+      </button>
+    </div>
+ 
+    <div class="price">549</div>
+  </div>
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <button class="delete"> X </button>
+    <button class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+ 
+    <div class="image">
+      <img src="fender.jpg" height="65" alt=""/>
+    </div>
+ 
+    <div class="description">
+      <span>Electric Guitar</span>
+      <span>Fender</span>
+      <span>Sunburst</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="minus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+        </svg>
+      </button>
+      <input type="text" class="QNT" value="1">
+      <button class="plus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+      </button>
+    </div>
+ 
+    <div class="price">870</div>
+  </div>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    <button class="delete"> X </button>
+    <button class="like"> <i class="fa fa-heart fa-1x" ></i> </button>
+ 
+    <div class="image">
+      <img src="fender2.jpg" height="65" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>Electric Guitar</span>
+      <span>Fender</span>
+      <span>Blue</span>
+    </div>
+ 
+    <div class="quantity">
+      <button class="minus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/>
+        </svg>
+      </button>
+      <input type="text" class="QNT" value="1">
+      <button class="plus-btn" type="button" name="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+        </svg>
+      </button>
+    </div>
+ 
+    <div class="price"> 349</div>
+  </div>
+
+  <div class="total">
+    
+    <p>Total Price:</p>
+    <input type="text" id="finalPrice" value="1768">
+   
+  </div>
+</div>
+
+<script src="main.js"></script> 
+</body>
+</html>
